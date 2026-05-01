@@ -75,3 +75,59 @@ a:focus-visible,button:focus-visible {
     outline: 3px solid var(--color-accent);
     outline-offset: 3px;
 }
+
+/*Common elements*/
+.container {
+    width: min(100%, var(--container-width));
+    margin-inline: auto;
+    background-color: var(--color-surface);
+}
+
+.section-title {
+    margin: 0 0 var(--space-l);
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 82px;
+    height: 4px;
+    margin: 6px auto 0;
+    background-color: var(--color-accent);
+}
+
+.story__kicker,
+.lead-story__kicker {
+    margin: 0;
+    color: var(--color-accent);
+    font-size: 0.78rem;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.story__title,
+.lead-story__title,
+.lead-side-story__title,
+.sidebar-card__title,
+.video-list__title,
+.podcast-card__title,
+.ideas__card__title {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-weight: 700;
+    line-height: 1.08;
+}
+
+.story__author{
+    margin: var(--space-xs);
+    color: var(--color-muted);
+    font-family: var(--font-serif);
+    font-size: 0.9rem;
+    font-style: italic;
+}
