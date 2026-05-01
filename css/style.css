@@ -307,3 +307,16 @@ a:focus-visible,button:focus-visible {
 .highlight-nav__list{
     overflow-x: auto;
 }
+
+/*ADV*/
+.adv-banner .container {
+    padding: var(--space-m);
+}
+
+.adv-banner__box{
+    min-height: 140px;
+    display: grid;
+    place-items: center;
+    color: var(--color-muted);
+    background-color: #fafafa
+}
