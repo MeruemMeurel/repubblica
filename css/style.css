@@ -37,11 +37,11 @@ body{
     margin: 0;
     font-family: var(--font-sans);
     color: var(--color-text);
-    background-color: var(--color-accent);
+    background-color: var(--color-page);
     line-height: 1.35;
 }
 
-image {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -206,3 +206,40 @@ a:focus-visible,button:focus-visible {
 .topbar__icon {
     font-size: 1.1rem;
 }
+
+/*Headline strip*/
+
+.headline-strip{
+    background-color: var(--color-header-dark);
+    color: #ffffff;
+}
+
+.headline-strip .container {
+    background-color: var(--color-header-dark);
+}
+
+.headline-strip__container {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    gap: var(--space-m);
+    padding-inline: var(--space-m);
+}
+
+.headline-strip__link img{
+    width: 150px;
+    height: 56px;
+    object-fit: cover;
+}
+
+.headline-strip__content{
+    min-width: 0;
+}
+
+.headline-strip__title {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
