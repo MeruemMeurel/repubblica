@@ -366,7 +366,7 @@ a:focus-visible,button:focus-visible {
     text-align: center;
 }
 
-match-card__team-logo {
+.match-card__team-logo {
     width: 26px;
     height: 26px;
     margin-inline: auto;
@@ -700,6 +700,64 @@ match-card__team-logo {
     color: var(--color-muted);
 }
 
+/*Video List*/
+.video-list{
+    margin-inline: calc(-1 * var(--space-m));
+    padding-inline: var(--space-m);
+    color: #ffffff;
+    background-color: var(--color-video-bg)
+}
+
+.video-list .section-title{
+    color: #ffffff;
+}
+
+.video-list .section-title::after{
+    background-color: #ffffff;
+}
+
+.video-list__card {
+    padding: var(--space-m) 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.video-list__card:last-child {
+    border-bottom: 0;
+}
+
+.video-list__media-link {
+    position: relative;
+}
+
+.video-list__image {
+    aspect-ratio: 16 / 9;
+}
+
+.media-list-card__play {
+    position: absolute;
+    left: var(--space-m);
+    bottom: var(--space-m);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.35);
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.video-list__content {
+    margin-top: var(--space-s);
+}
+
+.video-list__title {
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    line-height: 1.18;
+}
 
 
 
