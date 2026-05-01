@@ -679,6 +679,27 @@ match-card__team-logo {
     text-align: left;
 }
 
+/*Readers area*/
+
+.readers-area {
+    margin-inline: calc(-1 * var(--space-m));
+    padding-inline: var(--space-m);
+    background-color: var(--color-soft-gray);
+    text-align: center;
+}
+
+.readers-area__text {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 1.55rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.readers-area__text a {
+    color: var(--color-muted);
+}
+
 
 
 
