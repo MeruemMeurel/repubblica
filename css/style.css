@@ -269,3 +269,41 @@ a:focus-visible,button:focus-visible {
     text-transform: uppercase;
     letter-spacing: 0.03rem;
 }
+
+/*NAV*/
+
+.nav-area{
+    border-bottom: 1px solid var(--color-border);
+}
+
+.nav-area__container {
+    display: grid;
+    grid-template-columns: auto minmax(0,1fr);
+    align-items: stretch;
+}
+
+.section-nav{
+    border-right: 1px solid var(--color-border);
+}
+
+.section-nav__list,
+.highlight-nav__list{
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+}
+
+.section-nav__link,
+.highlight-nav__link{
+    display: block;
+    padding: 16px 14px;
+    color: #4f5660;
+    font-size: 0.9rem;
+    line-height: 1;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.highlight-nav__list{
+    overflow-x: auto;
+}
