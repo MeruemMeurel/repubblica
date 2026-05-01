@@ -154,3 +154,55 @@ a:focus-visible,button:focus-visible {
     height: 100%;
     object-fit: cover;
 }
+
+/*Topbar*/
+.site-header{
+    background: var(--color-surface);
+}
+
+.topbar {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.topbar .container {
+    min-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding-inline: var(--space-m)
+}
+
+.topbar__left,
+.topbar__right {
+    display: flex;
+    align-items: center;
+    gap: var(--space-m)
+}
+
+.topbar__right{
+    justify-content: flex-end;
+}
+
+.topbar__center{
+    text-align: center;
+}
+
+.topbar__button,
+.topbar__link{
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-s);
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #30343a
+}
+
+.topbar__link{
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.topbar__icon {
+    font-size: 1.1rem;
+}
