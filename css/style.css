@@ -394,3 +394,25 @@ match-card__team-logo {
 .match-card__score {
     font-weight: 700;
 }
+
+/*Homepage Layout*/
+.homepage-layout .container {
+    border-left: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+}
+
+.homepage-layout__grid {
+    display: grid;
+    grid-template-columns: minmax(0,650px) minmax(0,328px);
+    align-items: start;
+}
+
+.main-content {
+    min-width: 0;
+}
+
+.sidebar {
+    min-width: 0;
+    padding: var(--space-xl) var(--space-m);
+}
+
