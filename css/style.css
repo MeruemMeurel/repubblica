@@ -416,3 +416,58 @@ match-card__team-logo {
     padding: var(--space-xl) var(--space-m);
 }
 
+/*LEAD NEWS*/
+.lead-news {
+    padding: var(--space-m);
+    background-color: var(--color-lead-bg);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.lead-news > h2 {
+    margin: 0 0 var(--space-m);
+    font-family: var(--font-serif);
+    font-size: 1.55rem;
+    line-height: 1.1;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-decoration-color: #4f80b2
+}
+
+.lead-news__grid {
+    display: grid;
+    gap: var(--space-m);
+}
+
+.lead-story {
+    display: grid;
+    grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
+    gap: var(--space-m);
+    align-items: start;
+}
+
+.lead-story__title {
+    font-size: 1.5rem;
+}
+
+.lead-story__media {
+    min-width: 0;
+}
+
+.lead-side-story {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) 200px;
+    gap: var(--space-m);
+    align-items: center;
+    padding-top: var(--space-m);
+    border-top: 1px solid rgba(0,0,0,0.16);
+}
+
+.lead-side-story__title {
+    font-size: 1.25rem;
+}
+
+.lead-side-story__image {
+    aspect-ratio: 16 / 9;
+}
