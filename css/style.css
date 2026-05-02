@@ -229,7 +229,18 @@ a:focus-visible,button:focus-visible {
 }
 
 .topbar__icon {
-    font-size: 1.1rem;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.topbar__icon--bell {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 /*Headline strip*/
