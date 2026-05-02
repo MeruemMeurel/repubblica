@@ -759,6 +759,48 @@ a:focus-visible,button:focus-visible {
     line-height: 1.18;
 }
 
+/*Podcast*/
+
+.podcast-list {
+    margin-inline: calc(-1 * var(--space-m));
+    padding-inline: var(--space-m);
+}
+
+.podcast-card {
+    display: grid;
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: var(--space-m);
+    align-items: center;
+    margin-bottom: var(--space-m);
+    padding: var(--space-s);
+    color: #ffffff;
+    background-color: var(--color-video-bg);
+    border-radius: 15px;
+}
+
+.podcast-card:last-child {
+    margin-bottom: 0;
+}
+
+.podcast-card__image {
+    aspect-ratio: 1;
+    border-radius: 7px;
+}
+
+.podcast-card__title {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.podcast-card .story__author {
+    color: #ffffff;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
 
 
 
