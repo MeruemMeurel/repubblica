@@ -324,6 +324,12 @@ a:focus-visible,button:focus-visible {
     text-align: center;
 }
 
+
+.masthead__title,
+.masthead__title a {
+    white-space: nowrap;
+}
+
 .masthead__title {
     margin: 0;
     font-family: var(--font-serif);

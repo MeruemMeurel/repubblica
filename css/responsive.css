@@ -178,7 +178,7 @@
     }
 
     .masthead__title {
-        font-size: clamp(2.3rem, 12vw, 3.8rem);
+        font-size: clamp(2.2rem, 7.5vw, 3.4rem);
     }
 
     .masthead__meta {
@@ -329,6 +329,111 @@
     .site-footer__horizontal-list {
         gap: var(--space-m);
     }
+}
+
+/*Regular Device*/
+
+@media (max-width: 620px) {
+    .topbar__button {
+        font-size: 0.9rem;
+    }
+
+    .topbar__left {
+        gap: var(--space-s);
+    }
+
+    .topbar__icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .headline-strip__container {
+        flex-direction: column;
+    }
+
+    .headline-strip__link {
+        flex: none;
+    }
+
+    .headline-strip__link img {
+        width: 150px;
+        height: 72px;
+    }
+
+    .masthead__title {
+        font-size: clamp(2rem, 13vw, 3.2rem);
+    }
+
+    .sports-results-strip .section-title {
+        font-size: 0.82rem;
+    }
+
+    .topic-section__title,
+    .front-page > h2,
+    .news-feed__title,
+    .sidebar .section-title {
+        font-size: 1.5rem;
+    }
+
+    .topic-story--lead .story__title,
+    .topic-story--row .story__title,
+    .front-page__story--row .story__title,
+    .news-feed__story--row .story__title {
+        font-size: 1.25rem;
+    }
+
+    .front-page__story--hero .story__title,
+    .news-feed__story--hero .story__title {
+        font-size: 1.35rem;
+    }
+
+    .front-page__grid,
+    .news-feed__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .front-page__story--card,
+    .news-feed__story--card {
+        padding-bottom: var(--space-m);
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .front-page__story--card:last-child,
+    .news-feed__story--card:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+
+    .topic-story--compact {
+        grid-template-columns: 1fr;
+    }
+
+    .topic-story--compact .story__media {
+        aspect-ratio: 16 / 9;
+    }
+
+    .podcast-card {
+        grid-template-columns: 72px minmax(0, 1fr);
+    }
+
+    .ideas__card {
+        grid-template-columns: 58px minmax(0, 1fr);
+    }
+
+    .ideas__avatar img {
+        width: 58px;
+        height: 58px;
+    }
+
+    .site-footer__links-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-l);
+    }
+
+    .site-footer__logo {
+        font-size: 1.9rem;
+    }
+
 }
 
 
