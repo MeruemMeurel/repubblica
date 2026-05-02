@@ -236,6 +236,11 @@ a:focus-visible,button:focus-visible {
     color: #30343a;
 }
 
+.topbar__label,
+.topbar__link {
+    white-space: nowrap;
+}
+
 .topbar__link{
     font-size: 0.82rem;
     font-weight: 700;

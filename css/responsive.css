@@ -133,20 +133,24 @@
 
     .topbar .container {
         min-height: auto;
-        grid-template-columns: 1fr auto;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        column-gap: var(--space-s);
         row-gap: var(--space-s);
         padding-block: var(--space-s);
     }
 
     .topbar__left {
-        gap: var(--space-m);
+        min-width: 0;
+        gap: var(--space-s);
     }
 
     .topbar__center {
-        display: none;
+        display: block;
+        text-align: center;
     }
 
     .topbar__right {
+        min-width: 0;
         justify-content: flex-end;
     }
 
@@ -438,6 +442,34 @@
 
 /*Small Mobile*/
 @media (max-width: 520px) {
+
+    .topbar .container {
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        column-gap: 6px;
+    }
+
+    .topbar__left {
+        gap: 6px;
+    }
+
+    .topbar__button {
+        gap: 4px;
+        font-size: 0.8rem;
+    }
+
+    .topbar__link {
+        font-size: 0.68rem;
+    }
+
+    .topbar__icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .topbar__label--optional {
+        display: none;
+    }
+
     .masthead__title {
         font-size: clamp(1.8rem, 6.6vw, 2.6rem);
     }
@@ -500,18 +532,29 @@
 /*Extra small mobile*/
 @media (max-width: 480px) {
     .topbar .container {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        column-gap: 6px;
+        padding-inline: var(--space-s);
     }
 
-    .topbar__left,
-    .topbar__right {
-        justify-content: space-between;
-        width: 100%;
+    .topbar__left {
+        justify-content: flex-start;
+        gap: 6px;
     }
 
     .topbar__right {
-        padding-top: var(--space-xs);
-        border-top: 1px solid var(--color-border);
+        justify-content: flex-end;
+        padding-top: 0;
+        border-top: 0;
+    }
+
+    .topbar__button {
+        gap: 5px;
+        font-size: 0.8rem;
+    }
+
+    .topbar__link {
+        font-size: 0.68rem;
     }
 
     .masthead__container {
@@ -603,18 +646,22 @@
     }
 
     .topbar__left {
-        justify-content: space-between;
+        justify-content: flex-start;
         gap: var(--space-xs);
     }
 
     .topbar__button {
-        gap: 5px;
-        font-size: 0.82rem;
+        gap: 4px;
+        font-size: 0.76rem;
+    }
+
+    .topbar__link {
+        font-size: 0.64rem;
     }
 
     .topbar__icon {
-        width: 17px;
-        height: 17px;
+        width: 16px;
+        height: 16px;
     }
 
     .masthead__container {
@@ -795,10 +842,6 @@
 @media (max-width: 340px) {
     .topbar__button {
         font-size: 0.78rem;
-    }
-
-    .topbar__left {
-        flex-wrap: wrap;
     }
 
     .masthead__title {
