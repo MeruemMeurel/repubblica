@@ -935,7 +935,9 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="news-feed news-feed--more-news">
+                        <section class="news-feed news-feed--more-news" aria-labelledby="more-news-title">
+                            <h2 id="more-news-title" class="news-feed__title">Altre notizie</h2>
+
                             <article class="news-feed__story news-feed__story--row">
                                 <div class="story__content">
                                     <p class="story__kicker">Lorem ipsum</p>
@@ -1499,128 +1501,129 @@
             </div>
         </section>
 
-        <footer class="site-footer">
-            <div class="container site-footer__container">
+    </main>
 
-                <div class="site-footer__brand-column">
-                    <h2 id="footer-title" class="site-footer__logo">
-                        <a href="index.html">Giornale Quotidiano</a>
-                    </h2>
+    <footer class="site-footer">
+        <div class="container site-footer__container">
 
-                    <p class="site-footer__company">Giornale Quotidiano News Network S.p.A.</p>
-                    <p class="site-footer__info">P.IVA 00000000000</p>
-                    <p class="site-footer__info">ISSN 0000-0000</p>
+            <div class="site-footer__brand-column">
+                <h2 id="footer-title" class="site-footer__logo">
+                    <a href="index.html">Giornale Quotidiano</a>
+                </h2>
 
-                    <a class="site-footer__button" href="#">Abbonati</a>
+                <p class="site-footer__company">Giornale Quotidiano News Network S.p.A.</p>
+                <p class="site-footer__info">P.IVA 00000000000</p>
+                <p class="site-footer__info">ISSN 0000-0000</p>
 
-                    <section class="site-footer__mini-section" aria-labelledby="footer-app-title">
-                        <h3 id="footer-app-title" class="site-footer__mini-title">App</h3>
-                        <p class="site-footer__inline-links">
-                            <a href="#">Iphone</a>
-                            <span aria-hidden="true">|</span>
-                            <a href="#">Android</a>
-                        </p>
-                    </section>
+                <a class="site-footer__button" href="#">Abbonati</a>
 
-                    <section class="site-footer__mini-section" aria-labelledby="footer-social-title">
-                        <h3 id="footer-social-title" class="site-footer__mini-title">Social</h3>
+                <section class="site-footer__mini-section" aria-labelledby="footer-app-title">
+                    <h3 id="footer-app-title" class="site-footer__mini-title">App</h3>
+                    <p class="site-footer__inline-links">
+                        <a href="#">Iphone</a>
+                        <span aria-hidden="true">|</span>
+                        <a href="#">Android</a>
+                    </p>
+                </section>
 
-                        <ul class="site-footer__social-list">
-                            <li><a href="#" aria-label="Facebook">f</a></li>
-                            <li><a href="#" aria-label="X">x</a></li>
-                            <li><a href="#" aria-label="Instagram">◎</a></li>
-                            <li><a href="#" aria-label="TikTok">♪</a></li>
-                            <li><a href="#" aria-label="YouTube">▶</a></li>
+                <section class="site-footer__mini-section" aria-labelledby="footer-social-title">
+                    <h3 id="footer-social-title" class="site-footer__mini-title">Social</h3>
+
+                    <ul class="site-footer__social-list">
+                        <li><a href="#" aria-label="Facebook">f</a></li>
+                        <li><a href="#" aria-label="X">x</a></li>
+                        <li><a href="#" aria-label="Instagram">◎</a></li>
+                        <li><a href="#" aria-label="TikTok">♪</a></li>
+                        <li><a href="#" aria-label="YouTube">▶</a></li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="site-footer__links-column">
+                <section class="site-footer__supplements" aria-labelledby="footer-supplements-title">
+                    <h3 id="footer-supplements-title" class="site-footer__title">
+                        Supplementi del quotidiano
+                    </h3>
+
+                    <ul class="site-footer__horizontal-list">
+                        <li><a href="#">Affari e Finanza</a></li>
+                        <li><a href="#">D</a></li>
+                        <li><a href="#">Il Venerdì</a></li>
+                        <li><a href="#">Magazine</a></li>
+                    </ul>
+                </section>
+
+                <div class="site-footer__links-grid">
+
+                    <section class="site-footer__section" aria-labelledby="footer-network-title">
+                        <h3 id="footer-network-title" class="site-footer__title">News Network</h3>
+                        <ul class="site-footer__list">
+                            <li><a href="#">Lorem Ipsum</a></li>
+                            <li><a href="#">Lorem Italia</a></li>
+                            <li><a href="#">Lorem News</a></li>
+                            <li><a href="#">Ipsum News</a></li>
+                            <li><a href="#">LI News</a></li>
+                        </ul>
+
+                        <h3 class="site-footer__title site-footer__title--spaced">Periodici</h3>
+                        <ul class="site-footer__list">
+                            <li><a href="#">Le Scienze</a></li>
+                            <li><a href="#">Lorem</a></li>
+                            <li><a href="#">National Lorem Ipsum</a></li>
                         </ul>
                     </section>
-                </div>
 
-                <div class="site-footer__links-column">
-                    <section class="site-footer__supplements" aria-labelledby="footer-supplements-title">
-                        <h3 id="footer-supplements-title" class="site-footer__title">
-                            Supplementi del quotidiano
+                    <section class="site-footer__section" aria-labelledby="footer-podcast-title">
+                        <h3 id="footer-podcast-title" class="site-footer__title">Radio e Podcast</h3>
+                        <ul class="site-footer__list">
+                            <li><a href="#">Radio Ipsum</a></li>
+                            <li><a href="#">Lorem Ipsum</a></li>
+                            <li><a href="#">l2i</a></li>
+                            <li><a href="#">OneLoremPodcast</a></li>
+                        </ul>
+
+                        <h3 class="site-footer__title site-footer__title--spaced">Iniziative editoriali</h3>
+                        <ul class="site-footer__list">
+                            <li><a href="#">In edicola</a></li>
+                        </ul>
+
+                        <h3 class="site-footer__title site-footer__title--spaced">Partnership</h3>
+                        <ul class="site-footer__list">
+                            <li><a href="#">Lorem</a></li>
+                            <li><a href="#">MyIpsum</a></li>
+                            <li><a href="#">LoremIpsumXY</a></li>
+                            <li><a href="#">loremipsum.it</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="site-footer__section" aria-labelledby="footer-services-title">
+                        <h3 id="footer-services-title" class="site-footer__title">
+                            Servizi, TV e consumi
                         </h3>
-
-                        <ul class="site-footer__horizontal-list">
-                            <li><a href="#">Affari e Finanza</a></li>
-                            <li><a href="#">D</a></li>
-                            <li><a href="#">Il Venerdì</a></li>
-                            <li><a href="#">Magazine</a></li>
+                        <ul class="site-footer__list">
+                            <li><a href="#">Annunci</a></li>
+                            <li><a href="#">Il mio libro</a></li>
+                            <li><a href="#">Enti e Tribunali</a></li>
+                            <li><a href="#">Meteo</a></li>
+                            <li><a href="#">Dizionario italiano</a></li>
+                            <li><a href="#">Dizionario inglese/italiano</a></li>
+                            <li><a href="#">Consigli.it</a></li>
+                            <li><a href="#">Codici sconto</a></li>
                         </ul>
                     </section>
 
-                    <div class="site-footer__links-grid">
-
-                        <section class="site-footer__section" aria-labelledby="footer-network-title">
-                            <h3 id="footer-network-title" class="site-footer__title">News Network</h3>
-                            <ul class="site-footer__list">
-                                <li><a href="#">Lorem Ipsum</a></li>
-                                <li><a href="#">Lorem Italia</a></li>
-                                <li><a href="#">Lorem News</a></li>
-                                <li><a href="#">Ipsum News</a></li>
-                                <li><a href="#">LI News</a></li>
-                            </ul>
-
-                            <h3 class="site-footer__title site-footer__title--spaced">Periodici</h3>
-                            <ul class="site-footer__list">
-                                <li><a href="#">Le Scienze</a></li>
-                                <li><a href="#">Lorem</a></li>
-                                <li><a href="#">National Lorem Ipsum</a></li>
-                            </ul>
-                        </section>
-
-                        <section class="site-footer__section" aria-labelledby="footer-podcast-title">
-                            <h3 id="footer-podcast-title" class="site-footer__title">Radio e Podcast</h3>
-                            <ul class="site-footer__list">
-                                <li><a href="#">Radio Ipsum</a></li>
-                                <li><a href="#">Lorem Ipsum</a></li>
-                                <li><a href="#">l2i</a></li>
-                                <li><a href="#">OneLoremPodcast</a></li>
-                            </ul>
-
-                            <h3 class="site-footer__title site-footer__title--spaced">Iniziative editoriali</h3>
-                            <ul class="site-footer__list">
-                                <li><a href="#">In edicola</a></li>
-                            </ul>
-
-                            <h3 class="site-footer__title site-footer__title--spaced">Partnership</h3>
-                            <ul class="site-footer__list">
-                                <li><a href="#">Lorem</a></li>
-                                <li><a href="#">MyIpsum</a></li>
-                                <li><a href="#">LoremIpsumXY</a></li>
-                                <li><a href="#">loremipsum.it</a></li>
-                            </ul>
-                        </section>
-
-                        <section class="site-footer__section" aria-labelledby="footer-services-title">
-                            <h3 id="footer-services-title" class="site-footer__title">
-                                Servizi, TV e consumi
-                            </h3>
-                            <ul class="site-footer__list">
-                                <li><a href="#">Annunci</a></li>
-                                <li><a href="#">Il mio libro</a></li>
-                                <li><a href="#">Enti e Tribunali</a></li>
-                                <li><a href="#">Meteo</a></li>
-                                <li><a href="#">Dizionario italiano</a></li>
-                                <li><a href="#">Dizionario inglese/italiano</a></li>
-                                <li><a href="#">Consigli.it</a></li>
-                                <li><a href="#">Codici sconto</a></li>
-                            </ul>
-                        </section>
-
-                    </div>
-                    <section class="site-footer__bottom-area" aria-labelledby="footer-bottom-title">
+                </div>
+                <section class="site-footer__bottom-area" aria-labelledby="footer-bottom-title">
                     <h3 id="footer-bottom-title" class="site-footer__title">
                         Network editoriale
                     </h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tutti i contenuti sono placeholder realizzati a scopo didattico.
                     </p>
-                    </section>
-                </div>
+                </section>
             </div>
-            </div>
-        </footer>
-    </main>
+        </div>
+    </footer>
+
 </body>
 </html>
