@@ -496,3 +496,93 @@
         font-size: 1.9rem;
     }
 }
+
+/*Extra small mobile*/
+@media (max-width: 480px) {
+    .topbar .container {
+        grid-template-columns: 1fr;
+    }
+
+    .topbar__left,
+    .topbar__right {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .topbar__right {
+        padding-top: var(--space-xs);
+        border-top: 1px solid var(--color-border);
+    }
+
+    .masthead__container {
+        padding-inline: var(--space-s);
+    }
+
+    .masthead__title {
+        font-size: clamp(1.65rem, 6.2vw, 2.25rem);
+    }
+
+    .section-nav__link,
+    .highlight-nav__link {
+        padding: 12px 10px;
+        font-size: 0.78rem;
+    }
+
+    .match-card {
+        min-width: 200px;
+    }
+
+    .story__kicker,
+    .lead-story__kicker {
+        font-size: 0.72rem;
+    }
+
+    .story__author {
+        font-size: 0.82rem;
+    }
+
+    .story__related {
+        font-size: 0.84rem;
+    }
+
+    .sidebar-card--overlay .sidebar-card__media,
+    .sidebar-card--overlay .sidebar-card__image {
+        min-height: 320px;
+    }
+
+    .sidebar-card--overlay .sidebar-card__content {
+        padding: 80px var(--space-m) var(--space-m);
+    }
+
+    .sidebar-card--overlay .sidebar-card__title {
+        font-size: 1.35rem;
+    }
+
+    .readers-area__text {
+        font-size: 1.25rem;
+    }
+
+    .video-list__title {
+        font-size: 1rem;
+    }
+
+    .podcast-card {
+        grid-template-columns: 64px minmax(0, 1fr);
+        gap: var(--space-s);
+    }
+
+    .podcast-card__title {
+        font-size: 0.9rem;
+    }
+
+    .site-footer__horizontal-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-s);
+    }
+
+    .site-footer__social-list a {
+        width: 26px;
+        height: 26px;
+    }
+}
