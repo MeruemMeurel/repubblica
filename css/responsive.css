@@ -1,3 +1,54 @@
+/*
+    -1024px ; small desktop/horizontal ipad
+    -900px: sidebar under
+    -700px: articles in column
+    -520px: thin mobile device
+*/
+
+@media (max-width: 1024px){
+    :root {
+        --container-width: 960px;
+        --space-xl: 28px;
+        --space-l: 20px;
+    }
+
+    .masthead__title {
+        font-size: clamp(2.8rem, 9vw, 4.5rem);
+    }
+
+    .homepage-layout__grid {
+        grid-template-columns: minmax(0, 1fr) 310px;
+    }
+
+    .sidebar {
+        padding-inline: var(--space-m);
+    }
+
+    .sidebar .section-title {
+        font-size: 1.5rem;
+    }
+
+    .sidebar-card--overlay .sidebar-card__media,
+    .sidebar-card--overlay .sidebar-card__image {
+        min-height: 460px;
+    }
+
+    .sidebar-card--overlay .sidebar-card__title {
+        font-size: 1.55rem;
+    }
+
+    .sports-results__list {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    .match-card {
+        grid-template-columns: minmax(0, 1fr) 54px minmax(0, 1fr);
+    }
+
+    .match-card__team-name {
+        font-size: 0.62rem;
+    }
+}
 @media (max-width: 900px) {
     .site-footer__container {
         grid-template-columns: 1fr;
