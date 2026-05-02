@@ -243,6 +243,15 @@ a:focus-visible,button:focus-visible {
     font-weight: 700;
 }
 
+.headline-strip__author {
+    margin: 0;
+    padding: var(--space-s) 0;
+    font-size: 0.8rem;
+    line-height: 1;
+    font-family: var(--font-serif);
+    font-style: italic;
+}
+
 /*Masthead*/
 .masthead {
     text-align: center;
