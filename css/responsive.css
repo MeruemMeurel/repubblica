@@ -836,15 +836,15 @@
 
     .sidebar-card--overlay .sidebar-card__media,
     .sidebar-card--overlay .sidebar-card__image {
-        min-height: 300px;
+        min-height: 240px;
     }
 
     .sidebar-card--overlay .sidebar-card__content {
-        padding: 70px var(--space-m) var(--space-m);
+        padding: 56px var(--space-m) var(--space-m);
     }
 
     .sidebar-card--overlay .sidebar-card__title {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .readers-area__text {
