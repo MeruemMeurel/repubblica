@@ -801,6 +801,37 @@ a:focus-visible,button:focus-visible {
     text-transform: uppercase;
 }
 
+/*Ideas*/
+.ideas__card {
+    display: grid;
+    grid-template-columns: 70px minmax(0, 1fr);
+    gap: var(--space-m);
+    align-items: center;
+    margin-bottom: var(--space-m);
+    padding: var(--space-m);
+    background-color: var(--color-soft-gray);
+    border-radius: 15px
+}
+
+.ideas__card:last-child {
+    margin-bottom: 0;
+}
+
+.ideas__avatar img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ideas__card__title {
+    font-size: 1.15rem;
+    color: #555555
+}
+
+.ideas .story__kicker{
+    margin-top: var(--space-xs);
+}
 
 
 
