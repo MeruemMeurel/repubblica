@@ -833,3 +833,40 @@
 
 
 
+@media (max-width: 760px) {
+    .nav-area {
+        overflow: hidden;
+    }
+
+    .nav-area__container {
+        min-width: 0;
+        display: block;
+    }
+
+    .section-nav,
+    .highlight-nav {
+        width: 100%;
+        min-width: 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .section-nav__list,
+    .highlight-nav__list {
+        width: max-content;
+        min-width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .section-nav__item,
+    .highlight-nav__item {
+        flex: 0 0 auto;
+    }
+
+    .section-nav__link,
+    .highlight-nav__link {
+        white-space: nowrap;
+    }
+}
