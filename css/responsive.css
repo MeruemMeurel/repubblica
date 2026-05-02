@@ -586,3 +586,250 @@
         height: 26px;
     }
 }
+
+@media (max-width: 400px) {
+    :root {
+        --space-m: 12px;
+        --space-l: 18px;
+        --space-xl: 24px;
+    }
+
+    body {
+        min-width: 320px;
+    }
+
+    .topbar .container {
+        padding-inline: var(--space-s);
+    }
+
+    .topbar__left {
+        justify-content: space-between;
+        gap: var(--space-xs);
+    }
+
+    .topbar__button {
+        gap: 5px;
+        font-size: 0.82rem;
+    }
+
+    .topbar__icon {
+        width: 17px;
+        height: 17px;
+    }
+
+    .masthead__container {
+        padding-block: var(--space-m);
+    }
+
+    .masthead__title {
+        font-size: clamp(1.55rem, 6.8vw, 2rem);
+        line-height: 1;
+    }
+
+    .masthead__meta {
+        max-width: 260px;
+        font-size: 0.64rem;
+        line-height: 1.25;
+    }
+
+    .headline-strip__container {
+        padding-inline: var(--space-s);
+    }
+
+    .headline-strip__link img {
+        width: 120px;
+        height: 64px;
+    }
+
+    .headline-strip__title {
+        font-size: 0.78rem;
+    }
+
+    .section-nav__link,
+    .highlight-nav__link {
+        padding: 10px 8px;
+        font-size: 0.72rem;
+    }
+
+    .adv-banner__box {
+        min-height: 80px;
+    }
+
+    .match-card {
+        min-width: 180px;
+        grid-template-columns: minmax(0, 1fr) 48px minmax(0, 1fr);
+    }
+
+    .match-card__team-logo {
+        width: 23px;
+        height: 23px;
+    }
+
+    .match-card__team-name,
+    .match-card__status,
+    .match-card__score {
+        font-size: 0.62rem;
+    }
+
+    .topic-section,
+    .front-page,
+    .news-feed,
+    .sidebar {
+        padding-inline: var(--space-s);
+    }
+
+    .topic-section {
+        padding-block: var(--space-m);
+    }
+
+    .front-page,
+    .news-feed {
+        padding-block: var(--space-l);
+    }
+
+    .topic-section__title,
+    .front-page > h2,
+    .news-feed__title,
+    .sidebar .section-title {
+        font-size: 1.25rem;
+    }
+
+    .topic-section__title::after,
+    .front-page > h2::after,
+    .news-feed__title::after,
+    .section-title::after {
+        width: 64px;
+        height: 3px;
+    }
+
+    .topic-story--lead .story__title,
+    .topic-story--row .story__title,
+    .front-page__story--row .story__title,
+    .news-feed__story--row .story__title,
+    .front-page__story--hero .story__title,
+    .news-feed__story--hero .story__title {
+        font-size: 1.08rem;
+        line-height: 1.12;
+    }
+
+    .front-page__story--card .story__title,
+    .news-feed__story--card .story__title {
+        font-size: 0.95rem;
+    }
+
+    .story__kicker,
+    .lead-story__kicker {
+        font-size: 0.68rem;
+    }
+
+    .story__author {
+        font-size: 0.78rem;
+    }
+
+    .story__related {
+        font-size: 0.8rem;
+    }
+
+    .front-page__story,
+    .news-feed__story {
+        padding-block: var(--space-m);
+    }
+
+    .front-page__grid,
+    .news-feed__grid {
+        gap: var(--space-m);
+        padding-block: var(--space-m);
+    }
+
+    .sidebar-card--overlay .sidebar-card__media,
+    .sidebar-card--overlay .sidebar-card__image {
+        min-height: 300px;
+    }
+
+    .sidebar-card--overlay .sidebar-card__content {
+        padding: 70px var(--space-m) var(--space-m);
+    }
+
+    .sidebar-card--overlay .sidebar-card__title {
+        font-size: 1.2rem;
+    }
+
+    .readers-area__text {
+        font-size: 1.12rem;
+    }
+
+    .podcast-card {
+        grid-template-columns: 58px minmax(0, 1fr);
+        gap: var(--space-s);
+    }
+
+    .podcast-card__title {
+        font-size: 0.86rem;
+    }
+
+    .ideas__card {
+        grid-template-columns: 52px minmax(0, 1fr);
+        gap: var(--space-s);
+        padding: var(--space-s);
+    }
+
+    .ideas__avatar img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .site-footer__brand-column,
+    .site-footer__links-column {
+        padding: var(--space-l) var(--space-s);
+    }
+
+    .site-footer__logo {
+        font-size: 1.55rem;
+    }
+
+    .site-footer__horizontal-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 340px) {
+    .topbar__button {
+        font-size: 0.78rem;
+    }
+
+    .topbar__left {
+        flex-wrap: wrap;
+    }
+
+    .masthead__title {
+        font-size: 1.45rem;
+    }
+
+    .masthead__meta {
+        font-size: 0.6rem;
+    }
+
+    .topic-section__title,
+    .front-page > h2,
+    .news-feed__title,
+    .sidebar .section-title {
+        font-size: 1.16rem;
+    }
+
+    .match-card {
+        min-width: 170px;
+    }
+
+    .sidebar-card--overlay .sidebar-card__media,
+    .sidebar-card--overlay .sidebar-card__image {
+        min-height: 280px;
+    }
+
+    .site-footer__logo {
+        font-size: 1.45rem;
+    }
+
+}
+
+
+
