@@ -12,6 +12,9 @@
     --color-lead-bg: #e7f2ff;
     --color-soft-gray: #eeeeee;
 
+    --color-link-hover: #2d5f91;
+    --color-story-hover: #474c52;
+
     --font-sans: Arial, Helvetica, sans-serif;
     --font-serif: Georgia, "Times New Roman", serif;
 
@@ -59,7 +62,29 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.topbar__button:hover,
+.topbar__link:hover,
+.section-nav__link:hover,
+.highlight-nav__link:hover,
+.lead-news a:hover,
+.readers-area__text a:hover {
+    color: var(--color-link-hover);
+}
+
+.story__title a:hover,
+.lead-story__title a:hover,
+.lead-side-story__title a:hover,
+.sidebar-card__title a:hover,
+.podcast-card__title a:hover,
+.ideas__card__title a:hover {
+    color: var(--color-story-hover);
+}
+
+.sidebar-card--overlay .sidebar-card__title a:hover {
+    color: var(--color-accent);
 }
 
 button {
