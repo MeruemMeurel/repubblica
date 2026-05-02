@@ -390,6 +390,14 @@ a:focus-visible,button:focus-visible {
     white-space: nowrap;
 }
 
+.section-nav__link--dropdown {
+    display: block;
+}
+
+.section-nav__link--dropdown {
+    padding-right: 10px;
+}
+
 .highlight-nav__list{
     overflow-x: auto;
 }
