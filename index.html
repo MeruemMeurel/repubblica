@@ -288,89 +288,78 @@
         </section>
 
         <section class="homepage-layout">
-            <div class="container homepage-layout__grid">
-                <div class="main-content">
+            <div class="container homepage-layout__container">
+                <div class="homepage-layout__grid homepage-layout__grid--first-page">
+                    <div class="main-content">
 
-                    <section class="lead-news" aria-labelledby="lead-news-title">
-                        <h2 id="lead-news-title">
-                            Notizie Principali
-                        </h2>
+                        <section class="lead-news" aria-labelledby="lead-news-title">
+                            <h2 id="lead-news-title">
+                                Notizie Principali
+                            </h2>
 
-                        <div class="lead-news__grid">
-                            <article class="lead-story">
-                                <div class="lead-story__content">
-                                    <p class="lead-story__kicker">Lorem ipsum.</p>
-                                    <h3 class="lead-story__title">
-                                        <a href="#">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in hendrerit augue.
+                            <div class="lead-news__grid">
+                                <article class="lead-story">
+                                    <div class="lead-story__content">
+                                        <p class="lead-story__kicker">Lorem ipsum.</p>
+                                        <h3 class="lead-story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in
+                                                hendrerit augue.
+                                            </a>
+                                        </h3>
+                                        <p class="story__author">di Lorem ipsum.</p>
+                                    </div>
+                                    <div class="lead-story__media">
+                                        <a class="lead-story__media-link" href="#">
+                                            <img class="lead-story__image" src="https://placehold.co/360x210"
+                                                 alt="Immagine della notizia principale">
                                         </a>
-                                    </h3>
-                                    <p class="story__author">di Lorem ipsum.</p>
-                                </div>
-                                <div class="lead-story__media">
-                                    <a class="lead-story__media-link" href="#">
-                                        <img class="lead-story__image" src="https://placehold.co/360x210" alt="Immagine della notizia principale">
-                                    </a>
-                                </div>
-                            </article>
-                            <article class="lead-side-story">
-                                <div class="lead-side-story__content">
-                                    <h3 class="lead-side-story__title">
+                                    </div>
+                                </article>
+                                <article class="lead-side-story">
+                                    <div class="lead-side-story__content">
+                                        <h3 class="lead-side-story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="lead-side-story__media">
+                                        <a class="lead-side-story__media-link" href="#">
+                                            <img class="lead-side-story__image" src="https://placehold.co/220x210"
+                                                 alt="Immagine di una seconda notizia importante">
+                                        </a>
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+                        </section>
+                        <section class="front-page" aria-labelledby="front-page-title">
+                            <h2 id="front-page-title">Primo Piano</h2>
+                            <article class="front-page__story front-page__story--row">
+                                <div class="story__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="story__title">
                                         <a href="#">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing.
                                         </a>
                                     </h3>
+                                    <p class="story__author">di Nome Cognome.</p>
                                 </div>
-                                <div class="lead-side-story__media">
-                                    <a class="lead-side-story__media-link" href="#">
-                                        <img class="lead-side-story__image" src="https://placehold.co/220x210" alt="Immagine di una seconda notizia importante">
-                                    </a>
-                                </div>
-
-                            </article>
-
-                        </div>
-
-                    </section>
-                    <section class="front-page" aria-labelledby="front-page-title">
-                        <h2 id="front-page-title">Primo Piano</h2>
-                        <article class="front-page__story front-page__story--row">
-                            <div class="story__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="story__title">
-                                    <a href="#">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
-                                    </a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome.</p>
-                            </div>
-                            <div class="story__media">
-                                <a class="story__media-link" href="#">
-                                    <img class="story__image" src="https://placehold.co/320x200" alt="Immagine di una notizia in Primo Piano">
-                                </a>
-                            </div>
-                        </article>
-                        <article class="front-page__story front-page__story--hero">
-                            <div class="story__media">
-                                <a class="story__media-link" href="#">
-                                    <img class="story__image" src="https://placehold.co/720x420" alt="Immagine di una notizia in Primo Piano">
-                                </a>
-                            </div>
-                            <div class="story__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="story__title">
-                                    <a href="#">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
-                                    </a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome.</p>
-                            </div>
-                        </article>
-                        <div class="front-page__grid">
-                            <article class="front-page__story front-page__story--card">
                                 <div class="story__media">
                                     <a class="story__media-link" href="#">
-                                        <img class="story__image" src="https://placehold.co/240x150" alt="Immagine di una notizia in primo piano">
+                                        <img class="story__image" src="https://placehold.co/320x200"
+                                             alt="Immagine di una notizia in Primo Piano">
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="front-page__story front-page__story--hero">
+                                <div class="story__media">
+                                    <a class="story__media-link" href="#">
+                                        <img class="story__image" src="https://placehold.co/720x420"
+                                             alt="Immagine di una notizia in Primo Piano">
                                     </a>
                                 </div>
                                 <div class="story__content">
@@ -380,66 +369,160 @@
                                             Lorem ipsum dolor sit amet, consectetur adipiscing.
                                         </a>
                                     </h3>
-
                                     <p class="story__author">di Nome Cognome.</p>
                                 </div>
                             </article>
-                            <article class="front-page__story front-page__story--card">
-                                <div class="story__media">
-                                    <a class="story__media-link" href="#">
-                                        <img class="story__image" src="https://placehold.co/240x150" alt="Immagine di una notizia in primo piano">
-                                    </a>
-                                </div>
-                                <div class="story__content">
-                                    <p class="story__kicker">Lorem ipsum.</p>
-                                    <h3 class="story__title">
-                                        <a href="#">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing.
+                            <div class="front-page__grid">
+                                <article class="front-page__story front-page__story--card">
+                                    <div class="story__media">
+                                        <a class="story__media-link" href="#">
+                                            <img class="story__image" src="https://placehold.co/240x150"
+                                                 alt="Immagine di una notizia in primo piano">
                                         </a>
-                                    </h3>
+                                    </div>
+                                    <div class="story__content">
+                                        <p class="story__kicker">Lorem ipsum.</p>
+                                        <h3 class="story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </a>
+                                        </h3>
 
-                                    <p class="story__author">di Nome Cognome.</p>
-                                </div>
-                            </article>
-                            <article class="front-page__story front-page__story--card">
-                                <div class="story__media">
-                                    <a class="story__media-link" href="#">
-                                        <img class="story__image" src="https://placehold.co/240x150" alt="Immagine di una notizia in primo piano">
-                                    </a>
-                                </div>
-                                <div class="story__content">
-                                    <p class="story__kicker">Lorem ipsum.</p>
-                                    <h3 class="story__title">
-                                        <a href="#">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                        <p class="story__author">di Nome Cognome.</p>
+                                    </div>
+                                </article>
+                                <article class="front-page__story front-page__story--card">
+                                    <div class="story__media">
+                                        <a class="story__media-link" href="#">
+                                            <img class="story__image" src="https://placehold.co/240x150"
+                                                 alt="Immagine di una notizia in primo piano">
                                         </a>
-                                    </h3>
+                                    </div>
+                                    <div class="story__content">
+                                        <p class="story__kicker">Lorem ipsum.</p>
+                                        <h3 class="story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </a>
+                                        </h3>
 
-                                    <p class="story__author">di Nome Cognome.</p>
-                                </div>
-                            </article>
-                        </div>
-                        <article class="front-page__story front-page__story--hero">
-                            <div class="story__media">
-                                <a class="story__media-link" href="#">
-                                    <img class="story__image" src="https://placehold.co/720x420" alt="Immagine di una notizia in Primo Piano">
-                                </a>
+                                        <p class="story__author">di Nome Cognome.</p>
+                                    </div>
+                                </article>
+                                <article class="front-page__story front-page__story--card">
+                                    <div class="story__media">
+                                        <a class="story__media-link" href="#">
+                                            <img class="story__image" src="https://placehold.co/240x150"
+                                                 alt="Immagine di una notizia in primo piano">
+                                        </a>
+                                    </div>
+                                    <div class="story__content">
+                                        <p class="story__kicker">Lorem ipsum.</p>
+                                        <h3 class="story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </a>
+                                        </h3>
+
+                                        <p class="story__author">di Nome Cognome.</p>
+                                    </div>
+                                </article>
                             </div>
-                            <div class="story__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="story__title">
-                                    <a href="#">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
+                            <article class="front-page__story front-page__story--hero">
+                                <div class="story__media">
+                                    <a class="story__media-link" href="#">
+                                        <img class="story__image" src="https://placehold.co/720x420"
+                                             alt="Immagine di una notizia in Primo Piano">
                                     </a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome.</p>
+                                </div>
+                                <div class="story__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="story__title">
+                                        <a href="#">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                        </a>
+                                    </h3>
+                                    <p class="story__author">di Nome Cognome.</p>
+                                </div>
+                            </article>
+                            <div class="front-page__grid">
+                                <article class="front-page__story front-page__story--card">
+                                    <div class="story__media">
+                                        <a class="story__media-link" href="#">
+                                            <img class="story__image" src="https://placehold.co/240x150"
+                                                 alt="Immagine di una notizia in primo piano">
+                                        </a>
+                                    </div>
+                                    <div class="story__content">
+                                        <p class="story__kicker">Lorem ipsum.</p>
+                                        <h3 class="story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </a>
+                                        </h3>
+
+                                        <p class="story__author">di Nome Cognome.</p>
+                                    </div>
+                                </article>
+                                <article class="front-page__story front-page__story--card">
+                                    <div class="story__media">
+                                        <a class="story__media-link" href="#">
+                                            <img class="story__image" src="https://placehold.co/240x150"
+                                                 alt="Immagine di una notizia in primo piano">
+                                        </a>
+                                    </div>
+                                    <div class="story__content">
+                                        <p class="story__kicker">Lorem ipsum.</p>
+                                        <h3 class="story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </a>
+                                        </h3>
+
+                                        <p class="story__author">di Nome Cognome.</p>
+                                    </div>
+                                </article>
+                                <article class="front-page__story front-page__story--card">
+                                    <div class="story__media">
+                                        <a class="story__media-link" href="#">
+                                            <img class="story__image" src="https://placehold.co/240x150"
+                                                 alt="Immagine di una notizia in primo piano">
+                                        </a>
+                                    </div>
+                                    <div class="story__content">
+                                        <p class="story__kicker">Lorem ipsum.</p>
+                                        <h3 class="story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </a>
+                                        </h3>
+
+                                        <p class="story__author">di Nome Cognome.</p>
+                                    </div>
+                                </article>
                             </div>
-                        </article>
-                        <div class="front-page__grid">
-                            <article class="front-page__story front-page__story--card">
+                            <article class="front-page__story front-page__story--row">
+                                <div class="story__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="story__title">
+                                        <a href="#">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                        </a>
+                                    </h3>
+                                    <p class="story__author">di Nome Cognome.</p>
+                                </div>
                                 <div class="story__media">
                                     <a class="story__media-link" href="#">
-                                        <img class="story__image" src="https://placehold.co/240x150" alt="Immagine di una notizia in primo piano">
+                                        <img class="story__image" src="https://placehold.co/320x200"
+                                             alt="Immagine di una notizia in Primo Piano">
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="front-page__story front-page__story--hero">
+                                <div class="story__media">
+                                    <a class="story__media-link" href="#">
+                                        <img class="story__image" src="https://placehold.co/720x420"
+                                             alt="Immagine di una notizia in Primo Piano">
                                     </a>
                                 </div>
                                 <div class="story__content">
@@ -449,455 +532,418 @@
                                             Lorem ipsum dolor sit amet, consectetur adipiscing.
                                         </a>
                                     </h3>
-
                                     <p class="story__author">di Nome Cognome.</p>
                                 </div>
                             </article>
-                            <article class="front-page__story front-page__story--card">
-                                <div class="story__media">
-                                    <a class="story__media-link" href="#">
-                                        <img class="story__image" src="https://placehold.co/240x150" alt="Immagine di una notizia in primo piano">
-                                    </a>
-                                </div>
-                                <div class="story__content">
-                                    <p class="story__kicker">Lorem ipsum.</p>
-                                    <h3 class="story__title">
-                                        <a href="#">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing.
+                            <div class="front-page__grid">
+                                <article class="front-page__story front-page__story--card">
+                                    <div class="story__media">
+                                        <a class="story__media-link" href="#">
+                                            <img class="story__image" src="https://placehold.co/240x150"
+                                                 alt="Immagine di una notizia in primo piano">
                                         </a>
-                                    </h3>
+                                    </div>
+                                    <div class="story__content">
+                                        <p class="story__kicker">Lorem ipsum.</p>
+                                        <h3 class="story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </a>
+                                        </h3>
 
-                                    <p class="story__author">di Nome Cognome.</p>
-                                </div>
-                            </article>
-                            <article class="front-page__story front-page__story--card">
-                                <div class="story__media">
-                                    <a class="story__media-link" href="#">
-                                        <img class="story__image" src="https://placehold.co/240x150" alt="Immagine di una notizia in primo piano">
-                                    </a>
-                                </div>
-                                <div class="story__content">
-                                    <p class="story__kicker">Lorem ipsum.</p>
-                                    <h3 class="story__title">
-                                        <a href="#">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                        <p class="story__author">di Nome Cognome.</p>
+                                    </div>
+                                </article>
+                                <article class="front-page__story front-page__story--card">
+                                    <div class="story__media">
+                                        <a class="story__media-link" href="#">
+                                            <img class="story__image" src="https://placehold.co/240x150"
+                                                 alt="Immagine di una notizia in primo piano">
                                         </a>
-                                    </h3>
+                                    </div>
+                                    <div class="story__content">
+                                        <p class="story__kicker">Lorem ipsum.</p>
+                                        <h3 class="story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </a>
+                                        </h3>
 
-                                    <p class="story__author">di Nome Cognome.</p>
-                                </div>
-                            </article>
-                        </div>
-                        <article class="front-page__story front-page__story--row">
-                            <div class="story__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="story__title">
-                                    <a href="#">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
-                                    </a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome.</p>
+                                        <p class="story__author">di Nome Cognome.</p>
+                                    </div>
+                                </article>
+                                <article class="front-page__story front-page__story--card">
+                                    <div class="story__media">
+                                        <a class="story__media-link" href="#">
+                                            <img class="story__image" src="https://placehold.co/240x150"
+                                                 alt="Immagine di una notizia in primo piano">
+                                        </a>
+                                    </div>
+                                    <div class="story__content">
+                                        <p class="story__kicker">Lorem ipsum.</p>
+                                        <h3 class="story__title">
+                                            <a href="#">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                            </a>
+                                        </h3>
+
+                                        <p class="story__author">di Nome Cognome.</p>
+                                    </div>
+                                </article>
                             </div>
-                            <div class="story__media">
-                                <a class="story__media-link" href="#">
-                                    <img class="story__image" src="https://placehold.co/320x200" alt="Immagine di una notizia in Primo Piano">
-                                </a>
-                            </div>
-                        </article>
-                        <article class="front-page__story front-page__story--hero">
-                            <div class="story__media">
-                                <a class="story__media-link" href="#">
-                                    <img class="story__image" src="https://placehold.co/720x420" alt="Immagine di una notizia in Primo Piano">
-                                </a>
-                            </div>
-                            <div class="story__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="story__title">
-                                    <a href="#">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
-                                    </a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome.</p>
-                            </div>
-                        </article>
-                        <div class="front-page__grid">
-                            <article class="front-page__story front-page__story--card">
-                                <div class="story__media">
-                                    <a class="story__media-link" href="#">
-                                        <img class="story__image" src="https://placehold.co/240x150" alt="Immagine di una notizia in primo piano">
+
+                        </section>
+                    </div>
+
+                    <aside class="sidebar sidebar--first-page" aria-label="Contenuti laterali della prima pagina">
+                        <section class="sidebar__section video-of-the-day" aria-labelledby="video-of-the-day-title">
+                            <h2 id="video-of-the-day-title" class="section-title">
+                                Il video del giorno
+                            </h2>
+                            <article class="sidebar-card sidebar-card--overlay">
+                                <!-- --overlay used for text overlayed on image -->
+                                <div class="sidebar-card__media">
+                                    <a class="sidebar-card__media-link" href="#">
+                                        <img class="sidebar-card__image" src="https://placehold.co/420x620"
+                                             alt="Anteprima del video del giorno">
                                     </a>
                                 </div>
-                                <div class="story__content">
+                                <div class="sidebar-card__content">
                                     <p class="story__kicker">Lorem ipsum.</p>
-                                    <h3 class="story__title">
+                                    <h3 class="sidebar-card__title">
                                         <a href="#">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing.
                                         </a>
                                     </h3>
-
-                                    <p class="story__author">di Nome Cognome.</p>
                                 </div>
                             </article>
-                            <article class="front-page__story front-page__story--card">
-                                <div class="story__media">
-                                    <a class="story__media-link" href="#">
-                                        <img class="story__image" src="https://placehold.co/240x150" alt="Immagine di una notizia in primo piano">
-                                    </a>
-                                </div>
-                                <div class="story__content">
-                                    <p class="story__kicker">Lorem ipsum.</p>
-                                    <h3 class="story__title">
-                                        <a href="#">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing.
-                                        </a>
-                                    </h3>
-
-                                    <p class="story__author">di Nome Cognome.</p>
-                                </div>
-                            </article>
-                            <article class="front-page__story front-page__story--card">
-                                <div class="story__media">
-                                    <a class="story__media-link" href="#">
-                                        <img class="story__image" src="https://placehold.co/240x150" alt="Immagine di una notizia in primo piano">
-                                    </a>
-                                </div>
-                                <div class="story__content">
-                                    <p class="story__kicker">Lorem ipsum.</p>
-                                    <h3 class="story__title">
-                                        <a href="#">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing.
-                                        </a>
-                                    </h3>
-
-                                    <p class="story__author">di Nome Cognome.</p>
-                                </div>
-                            </article>
-                        </div>
-
-                    </section>
+                        </section>
+                    </aside>
                 </div>
+                <div class="homepage-layout__grid homepage-layout__grid--after-front-page">
+                    <div class="main-content">
+                        <!--toDO -->
+                    </div>
 
-                <aside class="sidebar" aria-label="Contenuti laterali">
-                    <section class="sidebar__section video-of-the-day" aria-labelledby="video-of-the-day-title">
-                        <h2 id="video-of-the-day-title" class="section-title">
-                            Il video del giorno
-                        </h2>
-                        <article class="sidebar-card sidebar-card--overlay">
-                            <!-- --overlay used for text overlayed on image -->
-                            <div class="sidebar-card__media">
-                                <a class="sidebar-card__media-link" href="#">
-                                    <img class="sidebar-card__image" src="https://placehold.co/420x620" alt="Anteprima del video del giorno">
-                                </a>
-                            </div>
-                            <div class="sidebar-card__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="sidebar-card__title">
-                                    <a href="#">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
+                    <aside class="sidebar sidebar--after-front-page" aria-label="Altri contenuti laterali">
+                        <section class="sidebar__section readers-area" aria-labelledby="readers-area-title">
+                            <h2 id="readers-area-title" class="section-title">
+                                Per i lettori
+                            </h2>
+                            <p class="readers-area__text">
+                                Informati con la newsletter del quotidiano | <a href="#">Iscriviti</a>
+                            </p>
+                        </section>
+                        <section class="sidebar__section sidebar-featured-story"
+                                 aria-labelledby="sidebar-featured-story-title">
+                            <article class="sidebar-card">
+                                <div class="sidebar-card__media">
+                                    <a class="sidebar-card__media-link" href="#">
+                                        <img class="sidebar-card__image"
+                                             src="https://placehold.co/420x260"
+                                             alt="Immagine di una notizia nella sezione laterale">
                                     </a>
-                                </h3>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="sidebar__section readers-area" aria-labelledby="readers-area-title">
-                        <h2 id="readers-area-title" class="section-title">
-                            Per i lettori
-                        </h2>
-                        <p class="readers-area__text">
-                            Informati con la newsletter del quotidiano | <a href="#">Iscriviti</a>
-                        </p>
-                    </section>
-                    <section class="sidebar__section sidebar-featured-story" aria-labelledby="sidebar-featured-story-title">
-                        <article class="sidebar-card">
-                            <div class="sidebar-card__media">
-                                <a class="sidebar-card__media-link" href="#">
-                                    <img    class="sidebar-card__image"
-                                            src="https://placehold.co/420x260"
-                                            alt="Immagine di una notizia nella sezione laterale">
-                                </a>
-                            </div>
-                            <div class="sidebar-card__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 id="sidebar-featured-story-title" class="sidebar-card__title">
-                                    <a href="#">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                </div>
+                                <div class="sidebar-card__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 id="sidebar-featured-story-title" class="sidebar-card__title">
+                                        <a href="#">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing.
+                                        </a>
+                                    </h3>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="sidebar__section video-list" aria-labelledby="video-list-title">
+                            <h2 id="video-list-title" class="section-title">I video</h2>
+                            <article class="video-list__card">
+                                <div class="video-list__media">
+                                    <a class="video-list__media-link" href="#">
+                                        <img class="video-list__image" src="https://placehold.co/360x210"
+                                             alt="Anteprima video">
+                                        <span class="media-list-card__play" aria-hidden="true">▶</span>
                                     </a>
-                                </h3>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="sidebar__section video-list" aria-labelledby="video-list-title">
-                        <h2 id="video-list-title" class="section-title">I video</h2>
-                        <article class="video-list__card">
-                            <div class="video-list__media">
-                                <a class="video-list__media-link" href="#">
-                                    <img class="video-list__image" src="https://placehold.co/360x210" alt="Anteprima video">
-                                    <span class="media-list-card__play" aria-hidden="true">▶</span>
-                                </a>
-                            </div>
-                            <div class="video-list__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="video-list__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                            </div>
-                        </article>
-                        <article class="video-list__card">
-                            <div class="video-list__media">
-                                <a class="video-list__media-link" href="#">
-                                    <img class="video-list__image" src="https://placehold.co/360x210" alt="Anteprima video">
-                                    <span class="media-list-card__play" aria-hidden="true">▶</span>
-                                </a>
-                            </div>
-                            <div class="video-list__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="video-list__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                            </div>
-                        </article>
-                        <article class="video-list__card">
-                            <div class="video-list__media">
-                                <a class="video-list__media-link" href="#">
-                                    <img class="video-list__image" src="https://placehold.co/360x210" alt="Anteprima video">
-                                    <span class="media-list-card__play" aria-hidden="true">▶</span>
-                                </a>
-                            </div>
-                            <div class="video-list__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="video-list__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                            </div>
-                        </article>
-                        <article class="video-list__card">
-                            <div class="video-list__media">
-                                <a class="video-list__media-link" href="#">
-                                    <img class="video-list__image" src="https://placehold.co/360x210" alt="Anteprima video">
-                                    <span class="media-list-card__play" aria-hidden="true">▶</span>
-                                </a>
-                            </div>
-                            <div class="video-list__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="video-list__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="sidebar__section podcast-list" aria-labelledby="podcast-list-title">
-                        <h2 id="podcast-list-title" class="section-title">I podcast</h2>
-                        <article class="podcast-card">
-                            <div class="podcast-card__media">
-                                <a class="podcast-card__media-link" href="#">
-                                    <img class="podcast-card__image" src="https://placehold.co/110x110" alt="Copertina podcast">
-                                </a>
-                            </div>
-                            <div class="podcast-card__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="podcast-card__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome</p>
-                            </div>
-                        </article>
-                        <article class="podcast-card">
-                            <div class="podcast-card__media">
-                                <a class="podcast-card__media-link" href="#">
-                                    <img class="podcast-card__image" src="https://placehold.co/110x110" alt="Copertina podcast">
-                                </a>
-                            </div>
-                            <div class="podcast-card__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="podcast-card__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome</p>
-                            </div>
-                        </article>
-                        <article class="podcast-card">
-                            <div class="podcast-card__media">
-                                <a class="podcast-card__media-link" href="#">
-                                    <img class="podcast-card__image" src="https://placehold.co/110x110" alt="Copertina podcast">
-                                </a>
-                            </div>
-                            <div class="podcast-card__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="podcast-card__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome</p>
-                            </div>
-                        </article>
-                        <article class="podcast-card">
-                            <div class="podcast-card__media">
-                                <a class="podcast-card__media-link" href="#">
-                                    <img class="podcast-card__image" src="https://placehold.co/110x110" alt="Copertina podcast">
-                                </a>
-                            </div>
-                            <div class="podcast-card__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="podcast-card__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome</p>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="sidebar__section ideas" aria-labelledby="ideas-title">
-                        <h2 id="ideas-title" class="section-title">
-                            Le idee
-                        </h2>
-                        <article class="ideas__card">
-                            <div class="ideas__avatar">
-                                <a href="#">
-                                    <img src="https://placehold.co/80x80" alt="Ritratto dell'opinionista">
-                                </a>
-                            </div>
-                            <div class="ideas__card__content">
-                                <h3 class="ideas__card__title">Lorem ipsum dolor sit amet, consectetur adipiscing.</h3>
-                                <p class="story__kicker">Lorem ipsum</p>
-                                <p class="story__author">di Nome Cognome</p>
-                            </div>
-                        </article>
-                        <article class="ideas__card">
-                            <div class="ideas__avatar">
-                                <a href="#">
-                                    <img src="https://placehold.co/80x80" alt="Ritratto dell'opinionista">
-                                </a>
-                            </div>
-                            <div class="ideas__card__content">
-                                <h3 class="ideas__card__title">Lorem ipsum dolor sit amet, consectetur adipiscing.</h3>
-                                <p class="story__kicker">Lorem ipsum</p>
-                                <p class="story__author">di Nome Cognome</p>
-                            </div>
-                        </article>
-                        <article class="ideas__card">
-                            <div class="ideas__avatar">
-                                <a href="#">
-                                    <img src="https://placehold.co/80x80" alt="Ritratto dell'opinionista">
-                                </a>
-                            </div>
-                            <div class="ideas__card__content">
-                                <h3 class="ideas__card__title">Lorem ipsum dolor sit amet, consectetur adipiscing.</h3>
-                                <p class="story__kicker">Lorem ipsum</p>
-                                <p class="story__author">di Nome Cognome</p>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="sidebar__section video-list" aria-labelledby="top-video-list-title">
-                        <h2 id="top-video-list-title" class="section-title">Top video</h2>
-                        <article class="video-list__card">
-                            <div class="video-list__media">
-                                <a class="video-list__media-link" href="#">
-                                    <img class="video-list__image" src="https://placehold.co/360x210" alt="Anteprima video">
-                                    <span class="media-list-card__play" aria-hidden="true">▶</span>
-                                </a>
-                            </div>
-                            <div class="video-list__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="video-list__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                            </div>
-                        </article>
-                        <article class="video-list__card">
-                            <div class="video-list__media">
-                                <a class="video-list__media-link" href="#">
-                                    <img class="video-list__image" src="https://placehold.co/360x210" alt="Anteprima video">
-                                    <span class="media-list-card__play" aria-hidden="true">▶</span>
-                                </a>
-                            </div>
-                            <div class="video-list__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="video-list__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                            </div>
-                        </article>
-                        <article class="video-list__card">
-                            <div class="video-list__media">
-                                <a class="video-list__media-link" href="#">
-                                    <img class="video-list__image" src="https://placehold.co/360x210" alt="Anteprima video">
-                                    <span class="media-list-card__play" aria-hidden="true">▶</span>
-                                </a>
-                            </div>
-                            <div class="video-list__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="video-list__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                            </div>
-                        </article>
-                        <article class="video-list__card">
-                            <div class="video-list__media">
-                                <a class="video-list__media-link" href="#">
-                                    <img class="video-list__image" src="https://placehold.co/360x210" alt="Anteprima video">
-                                    <span class="media-list-card__play" aria-hidden="true">▶</span>
-                                </a>
-                            </div>
-                            <div class="video-list__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="video-list__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="sidebar__section sidebar-thematic-news-feed" aria-labelledby="theme-one-title">
-                        <h2 id="theme-one-title" class="section-title">
-                            Tema 1
-                        </h2>
-                        <article class="sidebar-card">
-                            <div class="sidebar-card__media">
-                                <a class="sidebar-card__media-link" href="#">
-                                    <img class="sidebar-card__image" src="https://placehold.co/420x620" alt="Immagine della notizia di tema 1">
-                                </a>
-                            </div>
-                            <div class="sidebar-card__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="sidebar-card__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome</p>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="sidebar__section sidebar-thematic-news-feed" aria-labelledby="theme-two-title">
-                        <h2 id="theme-two-title" class="section-title">
-                            Tema 2
-                        </h2>
-                        <article class="sidebar-card">
-                            <div class="sidebar-card__media">
-                                <a class="sidebar-card__media-link" href="#">
-                                    <img class="sidebar-card__image" src="https://placehold.co/420x620" alt="Immagine della notizia di tema 2">
-                                </a>
-                            </div>
-                            <div class="sidebar-card__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="sidebar-card__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome</p>
-                            </div>
-                        </article>
-                        <article class="sidebar-card">
-                            <div class="sidebar-card__media">
-                                <a class="sidebar-card__media-link" href="#">
-                                    <img class="sidebar-card__image" src="https://placehold.co/420x620" alt="Immagine della notizia di tema 2">
-                                </a>
-                            </div>
-                            <div class="sidebar-card__content">
-                                <p class="story__kicker">Lorem ipsum.</p>
-                                <h3 class="sidebar-card__title">
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
-                                </h3>
-                                <p class="story__author">di Nome Cognome</p>
-                            </div>
-                        </article>
-                    </section>
-
-                </aside>
+                                </div>
+                                <div class="video-list__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="video-list__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                </div>
+                            </article>
+                            <article class="video-list__card">
+                                <div class="video-list__media">
+                                    <a class="video-list__media-link" href="#">
+                                        <img class="video-list__image" src="https://placehold.co/360x210"
+                                             alt="Anteprima video">
+                                        <span class="media-list-card__play" aria-hidden="true">▶</span>
+                                    </a>
+                                </div>
+                                <div class="video-list__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="video-list__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                </div>
+                            </article>
+                            <article class="video-list__card">
+                                <div class="video-list__media">
+                                    <a class="video-list__media-link" href="#">
+                                        <img class="video-list__image" src="https://placehold.co/360x210"
+                                             alt="Anteprima video">
+                                        <span class="media-list-card__play" aria-hidden="true">▶</span>
+                                    </a>
+                                </div>
+                                <div class="video-list__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="video-list__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                </div>
+                            </article>
+                            <article class="video-list__card">
+                                <div class="video-list__media">
+                                    <a class="video-list__media-link" href="#">
+                                        <img class="video-list__image" src="https://placehold.co/360x210"
+                                             alt="Anteprima video">
+                                        <span class="media-list-card__play" aria-hidden="true">▶</span>
+                                    </a>
+                                </div>
+                                <div class="video-list__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="video-list__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="sidebar__section podcast-list" aria-labelledby="podcast-list-title">
+                            <h2 id="podcast-list-title" class="section-title">I podcast</h2>
+                            <article class="podcast-card">
+                                <div class="podcast-card__media">
+                                    <a class="podcast-card__media-link" href="#">
+                                        <img class="podcast-card__image" src="https://placehold.co/110x110"
+                                             alt="Copertina podcast">
+                                    </a>
+                                </div>
+                                <div class="podcast-card__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="podcast-card__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                    <p class="story__author">di Nome Cognome</p>
+                                </div>
+                            </article>
+                            <article class="podcast-card">
+                                <div class="podcast-card__media">
+                                    <a class="podcast-card__media-link" href="#">
+                                        <img class="podcast-card__image" src="https://placehold.co/110x110"
+                                             alt="Copertina podcast">
+                                    </a>
+                                </div>
+                                <div class="podcast-card__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="podcast-card__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                    <p class="story__author">di Nome Cognome</p>
+                                </div>
+                            </article>
+                            <article class="podcast-card">
+                                <div class="podcast-card__media">
+                                    <a class="podcast-card__media-link" href="#">
+                                        <img class="podcast-card__image" src="https://placehold.co/110x110"
+                                             alt="Copertina podcast">
+                                    </a>
+                                </div>
+                                <div class="podcast-card__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="podcast-card__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                    <p class="story__author">di Nome Cognome</p>
+                                </div>
+                            </article>
+                            <article class="podcast-card">
+                                <div class="podcast-card__media">
+                                    <a class="podcast-card__media-link" href="#">
+                                        <img class="podcast-card__image" src="https://placehold.co/110x110"
+                                             alt="Copertina podcast">
+                                    </a>
+                                </div>
+                                <div class="podcast-card__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="podcast-card__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                    <p class="story__author">di Nome Cognome</p>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="sidebar__section ideas" aria-labelledby="ideas-title">
+                            <h2 id="ideas-title" class="section-title">
+                                Le idee
+                            </h2>
+                            <article class="ideas__card">
+                                <div class="ideas__avatar">
+                                    <a href="#">
+                                        <img src="https://placehold.co/80x80" alt="Ritratto dell'opinionista">
+                                    </a>
+                                </div>
+                                <div class="ideas__card__content">
+                                    <h3 class="ideas__card__title">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing.</h3>
+                                    <p class="story__kicker">Lorem ipsum</p>
+                                    <p class="story__author">di Nome Cognome</p>
+                                </div>
+                            </article>
+                            <article class="ideas__card">
+                                <div class="ideas__avatar">
+                                    <a href="#">
+                                        <img src="https://placehold.co/80x80" alt="Ritratto dell'opinionista">
+                                    </a>
+                                </div>
+                                <div class="ideas__card__content">
+                                    <h3 class="ideas__card__title">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing.</h3>
+                                    <p class="story__kicker">Lorem ipsum</p>
+                                    <p class="story__author">di Nome Cognome</p>
+                                </div>
+                            </article>
+                            <article class="ideas__card">
+                                <div class="ideas__avatar">
+                                    <a href="#">
+                                        <img src="https://placehold.co/80x80" alt="Ritratto dell'opinionista">
+                                    </a>
+                                </div>
+                                <div class="ideas__card__content">
+                                    <h3 class="ideas__card__title">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing.</h3>
+                                    <p class="story__kicker">Lorem ipsum</p>
+                                    <p class="story__author">di Nome Cognome</p>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="sidebar__section video-list" aria-labelledby="top-video-list-title">
+                            <h2 id="top-video-list-title" class="section-title">Top video</h2>
+                            <article class="video-list__card">
+                                <div class="video-list__media">
+                                    <a class="video-list__media-link" href="#">
+                                        <img class="video-list__image" src="https://placehold.co/360x210"
+                                             alt="Anteprima video">
+                                        <span class="media-list-card__play" aria-hidden="true">▶</span>
+                                    </a>
+                                </div>
+                                <div class="video-list__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="video-list__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                </div>
+                            </article>
+                            <article class="video-list__card">
+                                <div class="video-list__media">
+                                    <a class="video-list__media-link" href="#">
+                                        <img class="video-list__image" src="https://placehold.co/360x210"
+                                             alt="Anteprima video">
+                                        <span class="media-list-card__play" aria-hidden="true">▶</span>
+                                    </a>
+                                </div>
+                                <div class="video-list__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="video-list__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                </div>
+                            </article>
+                            <article class="video-list__card">
+                                <div class="video-list__media">
+                                    <a class="video-list__media-link" href="#">
+                                        <img class="video-list__image" src="https://placehold.co/360x210"
+                                             alt="Anteprima video">
+                                        <span class="media-list-card__play" aria-hidden="true">▶</span>
+                                    </a>
+                                </div>
+                                <div class="video-list__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="video-list__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                </div>
+                            </article>
+                            <article class="video-list__card">
+                                <div class="video-list__media">
+                                    <a class="video-list__media-link" href="#">
+                                        <img class="video-list__image" src="https://placehold.co/360x210"
+                                             alt="Anteprima video">
+                                        <span class="media-list-card__play" aria-hidden="true">▶</span>
+                                    </a>
+                                </div>
+                                <div class="video-list__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="video-list__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="sidebar__section sidebar-thematic-news-feed" aria-labelledby="theme-one-title">
+                            <h2 id="theme-one-title" class="section-title">
+                                Tema 1
+                            </h2>
+                            <article class="sidebar-card">
+                                <div class="sidebar-card__media">
+                                    <a class="sidebar-card__media-link" href="#">
+                                        <img class="sidebar-card__image" src="https://placehold.co/420x620"
+                                             alt="Immagine della notizia di tema 1">
+                                    </a>
+                                </div>
+                                <div class="sidebar-card__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="sidebar-card__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                    <p class="story__author">di Nome Cognome</p>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="sidebar__section sidebar-thematic-news-feed" aria-labelledby="theme-two-title">
+                            <h2 id="theme-two-title" class="section-title">
+                                Tema 2
+                            </h2>
+                            <article class="sidebar-card">
+                                <div class="sidebar-card__media">
+                                    <a class="sidebar-card__media-link" href="#">
+                                        <img class="sidebar-card__image" src="https://placehold.co/420x620"
+                                             alt="Immagine della notizia di tema 2">
+                                    </a>
+                                </div>
+                                <div class="sidebar-card__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="sidebar-card__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                    <p class="story__author">di Nome Cognome</p>
+                                </div>
+                            </article>
+                            <article class="sidebar-card">
+                                <div class="sidebar-card__media">
+                                    <a class="sidebar-card__media-link" href="#">
+                                        <img class="sidebar-card__image" src="https://placehold.co/420x620"
+                                             alt="Immagine della notizia di tema 2">
+                                    </a>
+                                </div>
+                                <div class="sidebar-card__content">
+                                    <p class="story__kicker">Lorem ipsum.</p>
+                                    <h3 class="sidebar-card__title">
+                                        <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
+                                    </h3>
+                                    <p class="story__author">di Nome Cognome</p>
+                                </div>
+                            </article>
+                        </section>
+                    </aside>
+                </div>
             </div>
         </section>
     </main>
