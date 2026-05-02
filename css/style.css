@@ -669,6 +669,36 @@ a:focus-visible,button:focus-visible {
     color: #6d7480;
 }
 
+.topic-section__secondary-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: var(--space-m);
+    padding-top: var(--space-m);
+    border-top: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.topic-story--compact {
+    display: grid;
+    grid-template-columns: 170px minmax(0, 1fr);
+    gap: var(--space-m);
+    align-items: start;
+}
+
+.topic-story--compact .story__media {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+}
+
+.topic-story--compact .story__title {
+    font-size: 1.05rem;
+}
+
+.topic-story--text-only {
+    display: block;
+    padding-left: var(--space-m);
+    border-left: 1px solid rgba(0, 0, 0, 0.18);
+}
+
 /*Front page*/
 .front-page{
     padding: var(--space-xl) var(--space-m);
