@@ -3,18 +3,17 @@
     --color-page: #f4f4f4;
     --color-surface: #ffffff;
     --color-text: #111111;
-    --color-muted: #6d7480;
+    --color-muted: #4f5965;
     --color-border: #cfcfcf;
 
-    --color-accent: #f05a00;
+    --color-accent: #b84600;
     --color-header-dark: #3f5060;
     --color-video-bg: #405161;
     --color-lead-bg: #e7f2ff;
     --color-soft-gray: #eeeeee;
 
-    --color-link-hover: #2d5f91;
-    --color-story-hover: #474c52;
-
+    --color-link-hover: #24527f;
+    --color-story-hover: #34383d;
     --font-sans: Arial, Helvetica, sans-serif;
     --font-serif: Georgia, "Times New Roman", serif;
 
@@ -667,17 +666,17 @@ a:focus-visible,button:focus-visible {
 .topic-section--sport .story__title-prefix,
 .topic-section--sport .story__title-link,
 .topic-section--sport .story__related::before {
-    color: #4f80b2;
+    color: #163f66;
 }
 
 .topic-section--economy .story__kicker {
-    color: #5f7182;
+    color: #263949;
     font-size: 0.82rem;
     letter-spacing: 0.04em;
 }
 
 .topic-section--economy .story__title-prefix {
-    color: #6d7480;
+    color: #263949;
 }
 
 .topic-section__secondary-grid {
@@ -968,10 +967,10 @@ a:focus-visible,button:focus-visible {
     inset: 0;
     background: linear-gradient(
         to top,
-        rgba(0, 0, 0, 0.85) 0%,
-        rgba(0, 0, 0, 0.55) 38%,
-        rgba(0, 0, 0, 0.12) 70%,
-        rgba(0, 0, 0, 0) 100%
+        rgba(0, 0, 0, 0.98) 0%,
+        rgba(0, 0, 0, 0.88) 38%,
+        rgba(0, 0, 0, 0.45) 70%,
+        rgba(0, 0, 0, 0.12) 100%
     );
     pointer-events: none;
 }
@@ -994,8 +993,9 @@ a:focus-visible,button:focus-visible {
     bottom: 0;
     z-index: 1;
     margin: 0;
-    padding: 90px var(--space-m) var(--space-l);
+    padding: var(--space-m);
     color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.86);
 }
 
 .sidebar-card--overlay .story__kicker {
@@ -1043,6 +1043,10 @@ a:focus-visible,button:focus-visible {
 
 .video-list .section-title::after{
     background-color: #ffffff;
+}
+
+.video-list .story__kicker {
+    color: #ffffff;
 }
 
 .video-list__card {
@@ -1128,6 +1132,10 @@ a:focus-visible,button:focus-visible {
     font-size: 0.8rem;
     font-style: normal;
     text-transform: uppercase;
+}
+
+.podcast-card .story__kicker {
+    color: #f2f2f2;
 }
 
 /*Ideas*/
@@ -1216,14 +1224,14 @@ a:focus-visible,button:focus-visible {
     margin: var(--space-m) 0 var(--space-l);
     padding: 8px 18px;
     color: #ffffff;
-    background-color: #4f80b2;
+    background-color: #24527f;
     font-size: 0.9rem;
     font-weight: 700;
 }
 
 .site-footer__button:hover {
     color: #ffffff;
-    background-color: #2d5f91;
+    background-color: #1d4166;
 }
 
 .site-footer__mini-section {
