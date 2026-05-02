@@ -488,7 +488,7 @@ a:focus-visible,button:focus-visible {
 }
 
 .homepage-layout__grid--after-front-page {
-    border-top: 1px solid var(--color-border);
+    border-top: 0;
 }
 
 .main-content {
@@ -554,6 +554,119 @@ a:focus-visible,button:focus-visible {
 
 .lead-side-story__image {
     aspect-ratio: 16 / 9;
+}
+/* Topic sections */
+.topic-section {
+    padding: var(--space-m);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.topic-section--blue {
+    background-color: var(--color-lead-bg);
+}
+
+.topic-section--gray {
+    background-color: #eeeeee;
+}
+
+.topic-section__title {
+    margin: 0 0 var(--space-m);
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    line-height: 1.1;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-decoration-color: #4f80b2;
+}
+
+.topic-section--gray .topic-section__title {
+    text-decoration-color: var(--color-muted);
+}
+
+.topic-section__main {
+    display: grid;
+    gap: var(--space-m);
+}
+
+.topic-story--lead {
+    display: grid;
+    grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
+    gap: var(--space-m);
+    align-items: start;
+}
+
+.topic-story--lead .story__title {
+    font-size: 1.45rem;
+}
+
+.topic-story--lead .story__media {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.topic-story--row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 200px;
+    gap: var(--space-m);
+    align-items: center;
+    padding-top: var(--space-m);
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.topic-story--row .story__title {
+    font-size: 1.1rem;
+}
+
+.topic-story--row .story__media {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.topic-story__content {
+    min-width: 0;
+}
+
+.story__title-link {
+    color: var(--color-accent);
+}
+
+.story__kicker--bullet::before {
+    content: "•";
+    margin-right: 6px;
+    color: currentColor;
+}
+
+.story__related {
+    margin: var(--space-s) 0 0;
+    font-family: var(--font-serif);
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.story__related::before {
+    content: "•";
+    margin-right: 6px;
+    color: currentColor;
+}
+
+.topic-section--sport .story__kicker,
+.topic-section--sport .story__title-prefix,
+.topic-section--sport .story__title-link,
+.topic-section--sport .story__related::before {
+    color: #4f80b2;
+}
+
+.topic-section--economy .story__kicker {
+    color: #5f7182;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+}
+
+.topic-section--economy .story__title-prefix {
+    color: #6d7480;
 }
 
 /*Front page*/
