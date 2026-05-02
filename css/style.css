@@ -242,6 +242,10 @@ a:focus-visible,button:focus-visible {
     text-transform: uppercase;
 }
 
+.topbar__button--login{
+    gap: 10px;
+}
+
 .topbar__icon {
     width: 20px;
     height: 20px;
@@ -253,6 +257,14 @@ a:focus-visible,button:focus-visible {
     fill: none;
     stroke: currentColor;
     stroke-width: 1.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.topbar__icon--user {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
     stroke-linecap: round;
     stroke-linejoin: round;
 }
