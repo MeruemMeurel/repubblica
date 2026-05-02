@@ -130,11 +130,25 @@ a:focus-visible,button:focus-visible {
 .lead-story__kicker {
     margin: 0;
     color: var(--color-accent);
+    font-family: var(--font-sans);
     font-size: 0.78rem;
     line-height: 1.1;
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.story__title-prefix {
+    color: var(--color-accent);
+}
+
+.story__kicker--center {
+    text-align: center;
+}
+
+.front-page__story--hero .story__kicker {
+    text-align: center;
+}
+
 /*Titles*/
 .story__title,
 .lead-story__title,
