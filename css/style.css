@@ -833,8 +833,18 @@ a:focus-visible,button:focus-visible {
     margin-top: var(--space-xs);
 }
 
+/*Sidebar Thematic Section*/
+.sidebar-thematic-news-feed .sidebar-card + .sidebar-card{
+    margin-top: var(--space-l);
+}
 
+.sidebar-thematic-news-feed .sidebar-card__title {
+    font-size: 1.5rem;
+}
 
+.sidebar-thematic-news-feed .sidebar-card__image {
+    aspect-ratio: 4 / 3;
+}
 
 
 
